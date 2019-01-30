@@ -1,0 +1,21 @@
+<%- include('header') %>
+
+
+<div class="ui grid">
+  <div class="four wide column"></div>
+  <div class="eight wide column">
+    <form class="ui form segment" method="post" style="background-color: #65656d">
+      <div class="field required">
+        <label>username</label>
+        <input placeholder="用户名" type="text" name="name" style="background-color:darkgray">
+      </div>
+      <div class="field required">
+        <label>password</label>
+        <input placeholder="密码" type="password" name="password"  style="background-color:darkgray">
+      </div>
+      <input type="submit" class="ui button fluid" value="signin"  style=" color:rgb(248, 245, 245)!IMPORTANT">
+    </form>  
+  </div>
+</div>
+
+<%- include('footer') %>
